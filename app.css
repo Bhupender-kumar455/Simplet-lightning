@@ -1,0 +1,64 @@
+body {
+    background: #cdb4db;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(180, 0, 180);
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: purple;
+}
+
+#mainNavbar .navbar-brand {
+    color: purple;
+    font-size: 1.5rem;
+}
+
+#headingwords span {
+    color: purple;
+}
+
+#headingwords h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media(max-width:1450px) {
+    #headingwords h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+.metaphori h2 {
+    color: rgb(123, 0, 123);
+    font-weight: 100;
+}
+
+.metaphori p {
+    color: rgb(184, 0, 0);
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.navbar.scrolled {
+    background: rgba(163, 118, 168, 0.667);
+    transition: background 0.7s;
+}
